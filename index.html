@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+
+<html lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Kopi Kenangan - Promo Spesial Kopi Indonesia</title>
+<!-- Google Fonts: Epilogue & Plus Jakarta Sans -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;600;700;800&amp;family=Plus Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4.3.3/dist/email.min.js"></script>
+<!-- Tailwind CSS v3 -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "tertiary": "#070300",
+            "surface-container": "#f2ede7",
+            "on-primary-container": "#9e7e73",
+            "on-primary": "#ffffff",
+            "on-secondary-container": "#fffbff",
+            "on-surface-variant": "#504440",
+            "on-secondary-fixed": "#40000a",
+            "on-tertiary-container": "#b07b1f",
+            "primary-container": "#2c1810",
+            "tertiary-container": "#2b1a00",
+            "surface-container-high": "#ece7e2",
+            "inverse-on-surface": "#f5f0ea",
+            "on-tertiary-fixed-variant": "#624000",
+            "primary-fixed-dim": "#e3bfb2",
+            "on-surface": "#1d1b18",
+            "secondary-fixed": "#ffdad9",
+            "outline-variant": "#d3c3be",
+            "surface-container-highest": "#e6e2dc",
+            "tertiary-fixed": "#ffddb1",
+            "surface-bright": "#fef9f3",
+            "inverse-surface": "#32302c",
+            "secondary-container": "#da3148",
+            "on-error": "#ffffff",
+            "on-secondary-fixed-variant": "#920023",
+            "error": "#ba1a1a",
+            "surface-tint": "#74584e",
+            "primary-fixed": "#ffdbce",
+            "primary": "#090100",
+            "surface-dim": "#ded9d4",
+            "on-tertiary": "#ffffff",
+            "error-container": "#ffdad6",
+            "secondary": "#b71032",
+            "on-secondary": "#ffffff",
+            "background": "#fef9f3",
+            "inverse-primary": "#e3bfb2",
+            "on-primary-fixed-variant": "#5a4137",
+            "on-primary-fixed": "#2a170f",
+            "on-background": "#1d1b18",
+            "on-tertiary-fixed": "#291800",
+            "surface": "#fef9f3",
+            "surface-variant": "#e6e2dc",
+            "tertiary-fixed-dim": "#fabb5b",
+            "outline": "#827470",
+            "surface-container-lowest": "#ffffff",
+            "on-error-container": "#93000a",
+            "surface-container-low": "#f8f3ed",
+            "secondary-fixed-dim": "#ffb3b4"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "space-sm": "0.5rem",
+            "space-xl": "2rem",
+            "space-xs": "0.25rem",
+            "margin-desktop": "2.5rem",
+            "margin-tablet": "1.5rem",
+            "gutter": "1rem",
+            "margin": "1rem",
+            "space-md": "1rem",
+            "space-lg": "1.5rem",
+            "space-2xl": "3rem",
+            "gutter-desktop": "1.5rem",
+            "gutter-mobile": "0.75rem"
+          },
+          "fontFamily": {
+            "headline-md": ["Epilogue"],
+            "body-md": ["Plus Jakarta Sans"],
+            "headline-sm": ["Epilogue"],
+            "title-md": ["Plus Jakarta Sans"],
+            "label-md": ["Plus Jakarta Sans"],
+            "label-lg": ["Plus Jakarta Sans"],
+            "display-lg-mobile": ["Epilogue"],
+            "headline-lg-mobile": ["Epilogue"],
+            "label-sm": ["Plus Jakarta Sans"],
+            "headline-lg": ["Epilogue"],
+            "title-lg": ["Plus Jakarta Sans"],
+            "body-lg": ["Plus Jakarta Sans"],
+            "display-lg": ["Epilogue"],
+            "body-sm": ["Plus Jakarta Sans"]
+          },
+          "fontSize": {
+            "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+            "body-md": ["14px", { "lineHeight": "22px", "fontWeight": "400" }],
+            "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }],
+            "title-md": ["16px", { "lineHeight": "24px", "fontWeight": "600" }],
+            "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }],
+            "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }],
+            "display-lg-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+            "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }],
+            "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+            "title-lg": ["18px", { "lineHeight": "26px", "fontWeight": "700" }],
+            "body-lg": ["16px", { "lineHeight": "26px", "fontWeight": "400" }],
+            "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }]
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-background text-on-surface font-body-md antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<!-- TOP NAVIGATION BAR (Anchored to Shared Components JSON) -->
+<header class="sticky top-0 w-full z-50 bg-surface/90 backdrop-blur-md shadow-sm">
+<div class="max-w-7xl mx-auto px-6 lg:px-10 flex items-center justify-between h-20">
+<!-- Logo Brand -->
+<a class="flex items-center gap-3" href="#">
+<span class="w-10 h-10 rounded-full bg-secondary text-on-secondary flex items-center justify-center font-bold font-headline-md text-headline-sm shadow-sm">K</span>
+<span class="text-headline-md font-headline-md font-bold text-primary tracking-tight">Kopi Kenangan</span>
+</a>
+<!-- Desktop Navigation Links -->
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-on-surface-variant font-medium hover:text-primary pb-1 transition-colors duration-150 font-label-lg text-label-lg" href="#menu">Menu Favorit</a>
+<a class="text-secondary font-bold border-b-2 border-secondary pb-1 transition-colors duration-150 font-label-lg text-label-lg" href="#promo">Promo Hari Ini</a>
+<a class="text-on-surface-variant font-medium hover:text-primary pb-1 transition-colors duration-150 font-label-lg text-label-lg" href="#app">Kenangan App</a>
+<a class="text-on-surface-variant font-medium hover:text-primary pb-1 transition-colors duration-150 font-label-lg text-label-lg" href="#cerita">Cerita Kami</a>
+<a class="text-on-surface-variant font-medium hover:text-primary pb-1 transition-colors duration-150 font-label-lg text-label-lg" href="#outlet">Temukan Outlet</a>
+</nav>
+<!-- Trailing Action Cluster -->
+<div class="flex items-center gap-4">
+<a class="hidden sm:inline-flex items-center justify-center bg-secondary hover:bg-secondary-container text-on-secondary font-label-lg text-label-lg px-5 py-2.5 rounded-lg transition-transform active:scale-95 duration-150 shadow-sm font-semibold" href="#order">
+          Pesan Sekarang
+        </a>
+<a class="text-primary hover:text-secondary font-label-lg text-label-lg font-semibold px-3 py-2 transition-colors duration-150" href="#login">
+          Masuk
+        </a>
+<button aria-label="Shopping Bag" class="relative p-2 rounded-full text-on-surface hover:text-secondary transition-colors duration-150 active:scale-95">
+<span class="material-symbols-outlined text-[24px]">shopping_bag</span>
+<span class="absolute top-1 right-1 w-2.5 h-2.5 bg-secondary rounded-full ring-2 ring-surface"></span>
+</button>
+</div>
+</div>
+</header>
+<!-- HERO SECTION: PROMOSI SPEKTAKULER -->
+<section class="relative overflow-hidden bg-gradient-to-b from-surface via-surface-container-low to-surface pt-8 pb-16 lg:py-20" id="promo">
+<div class="max-w-7xl mx-auto px-6 lg:px-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Hero Text & Offer Callout -->
+<div class="lg:col-span-7 flex flex-col items-start gap-6">
+<!-- Promo Flash Badge -->
+<div class="inline-flex items-center gap-3 bg-secondary-fixed text-on-secondary-fixed px-3.5 py-1.5 rounded-full border border-secondary-fixed-dim shadow-xs">
+<span class="flex h-2 w-2 relative">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-secondary"></span>
+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-bold">PROMO SPESIAL BULAN INI</span>
+<span class="bg-secondary text-on-secondary px-2.5 py-0.5 rounded-md font-label-sm text-label-sm font-bold tracking-tight">VOUCHER: KENANGANHEMAT</span>
+</div>
+<!-- Headline -->
+<h1 class="font-display-lg text-display-lg text-primary leading-tight tracking-tight">
+            Teguk Kenangan Manis, <span class="text-secondary italic">Hemat Hingga 50%!</span>
+</h1>
+<!-- Subheadline -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+            Nikmati segelas Kopi Kenangan Mantan dengan gula aren asli pilihan nusantara &amp; espresso blend 100% biji kopi lokal yang gurih, harum, dan bikin harimu lebih bersemangat.
+          </p>
+<!-- Dual Call-to-Action -->
+<div class="flex flex-wrap items-center gap-4 pt-2 w-full sm:w-auto">
+<a class="w-full sm:w-auto text-center inline-flex items-center justify-center gap-2 bg-secondary text-on-secondary font-label-lg text-label-lg px-8 py-3.5 rounded-lg shadow-md hover:bg-secondary-container active:scale-95 transition-all duration-150 font-bold" href="#deals">
+<span class="material-symbols-outlined text-[20px]">local_activity</span>
+              Klaim Promo Sekarang
+            </a>
+<a class="w-full sm:w-auto text-center inline-flex items-center justify-center gap-2 bg-surface-container-lowest border-2 border-outline-variant text-primary-container font-label-lg text-label-lg px-7 py-3.5 rounded-lg hover:bg-surface-container active:scale-95 transition-all duration-150 font-bold" href="#menu">
+<span class="material-symbols-outlined text-[20px]">coffee</span>
+              Lihat Menu Promo
+            </a>
+</div>
+<!-- Feature Highlights Micro Strip -->
+<div class="grid grid-cols-3 gap-4 pt-6 border-t border-outline-variant/60 w-full max-w-lg">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[22px]">verified</span>
+<span class="font-label-sm text-label-sm font-semibold text-on-surface">100% Halal MUI</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[22px]">eco</span>
+<span class="font-label-sm text-label-sm font-semibold text-on-surface">Biji Kopi Lokal</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[22px]">water_drop</span>
+<span class="font-label-sm text-label-sm font-semibold text-on-surface">Aren Murni</span>
+</div>
+</div>
+</div>
+<!-- Hero Visual Showcase -->
+<div class="lg:col-span-5 relative flex items-center justify-center">
+<!-- Background Organic Aura -->
+<div class="absolute -inset-4 bg-gradient-to-tr from-secondary-fixed/40 via-tertiary-fixed/30 to-surface-container-high rounded-full filter blur-2xl opacity-70"></div>
+<!-- Product Card Showcase -->
+<div class="relative w-full max-w-md bg-surface-container-lowest rounded-2xl p-4 shadow-xl border border-outline-variant/40">
+<div class="relative overflow-hidden rounded-xl bg-surface-container-low aspect-[4/5] flex items-center justify-center">
+<img class="w-full h-full object-cover rounded-xl" data-alt="A striking studio photograph of an iced Kopi Kenangan cup with chilled condensation droplets, featuring rich layers of dark espresso blend, fresh velvety white milk, and deep amber brown palm sugar syrup. The composition is adorned with scattered freshly roasted Indonesian Arabica coffee beans and natural cinnamon bark on a warm artisanal cream surface with soft café morning sunlight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4_NSLIIORHP1EoUc34kHepBWLygitEkxzfkzlBQ8RMoJcTbJjHe-LcYG2FWy8CsZob16laRCSLgnYGlTtXi7AUg9fLem02U-ckkLO507DO1SM5dfQstdY41wgi1SyMzdbbqpA1oIgyJy23i0TDQXYdo4w4RuE_bAWV8-J9g5VR488Gf49b0HJGoDtVKKEmlwt7rEHJ3diAjFAPKrrcPS1xme2R4zH0PK66JetnCqGgAZgQDidHf_Y"/>
+<!-- Floating Badge: 10jt+ Cup -->
+<div class="absolute top-4 left-4 bg-surface-container-lowest/95 backdrop-blur-md px-3.5 py-2 rounded-xl shadow-md border border-outline-variant/40 flex items-center gap-2.5">
+<div class="w-7 h-7 rounded-full bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+</div>
+<div>
+<p class="font-label-sm text-label-sm text-secondary font-bold leading-tight">Terjual 10jt+ Cup / Bulan</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-[11px] leading-tight">Kopi Favorit Nusantara</p>
+</div>
+</div>
+<!-- Floating Tag: Diskon 50% -->
+<div class="absolute bottom-4 right-4 bg-secondary text-on-secondary px-3.5 py-2 rounded-xl shadow-lg flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px]">percent</span>
+<div>
+<p class="font-label-sm text-label-sm font-bold uppercase leading-tight">Spesial Promo</p>
+<p class="font-title-md text-title-md font-bold leading-tight">Diskon 50%</p>
+</div>
+</div>
+</div>
+<!-- Mini Caption Strip Under Product -->
+<div class="mt-4 px-2 flex items-center justify-between">
+<div>
+<h2 class="font-title-md text-title-md text-primary font-bold">Kopi Kenangan Mantan</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Signature Espresso &amp; Gula Aren Organik</p>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-body-sm line-through text-outline">Rp 24.000</span>
+<p class="font-title-lg text-title-lg text-secondary font-bold">Rp 12.000</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FLASH DEALS & KUPON HARI INI (Interactive Promo Strip) -->
+<section class="py-12 bg-primary-container text-surface-bright" id="deals">
+<div class="max-w-7xl mx-auto px-6 lg:px-10">
+<!-- Strip Header & Countdown Timer -->
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-6 pb-8 border-b border-on-primary-container/30">
+<div class="flex items-center gap-3">
+<div class="p-2.5 rounded-lg bg-secondary text-on-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[26px]" style="font-variation-settings: 'FILL' 1;">bolt</span>
+</div>
+<div>
+<h2 class="font-headline-md text-headline-md text-surface-bright font-bold tracking-tight">Flash Deals Hari Ini</h2>
+<p class="font-body-md text-body-md text-on-primary-container">Klaim voucher ekstra sebelum waktu penawaran berakhir!</p>
+</div>
+</div>
+<!-- Countdown Pill -->
+<div class="flex items-center gap-3 bg-tertiary-container/80 px-4 py-2.5 rounded-xl border border-tertiary-fixed-dim/40 shadow-inner">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px]">timer</span>
+<span class="font-label-md text-label-md text-tertiary-fixed font-semibold tracking-wide uppercase">Berakhir dalam:</span>
+<div class="flex items-center gap-1.5 font-headline-sm text-headline-sm font-bold text-surface-bright" id="flash-countdown">
+<span class="bg-primary/80 px-2 py-0.5 rounded text-secondary-fixed">04</span>
+<span class="text-tertiary-fixed">:</span>
+<span class="bg-primary/80 px-2 py-0.5 rounded text-secondary-fixed">32</span>
+<span class="text-tertiary-fixed">:</span>
+<span class="bg-primary/80 px-2 py-0.5 rounded text-secondary-fixed">18</span>
+</div>
+</div>
+</div>
+<!-- 3 Voucher Promo Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-8">
+<!-- Voucher Card 1 -->
+<div class="relative bg-surface-container-lowest text-on-surface rounded-2xl p-6 shadow-md border border-outline-variant/60 flex flex-col justify-between overflow-hidden">
+<div class="absolute -right-10 -top-10 w-24 h-24 bg-secondary-fixed/50 rounded-full blur-xl pointer-events-none"></div>
+<div>
+<div class="flex items-center justify-between pb-3">
+<span class="bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold px-2.5 py-1 rounded-md">HEMAT 35%</span>
+<span class="material-symbols-outlined text-outline-variant text-[20px]">confirmation_number</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary font-bold">Beli 2 Kopi Kenangan Mantan</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Cuma Rp 28.000 untuk 2 cup signature blend gula aren asli.</p>
+</div>
+<div class="mt-6 pt-4 border-t border-dashed border-outline-variant flex items-center justify-between gap-2">
+<div class="bg-surface-container-low px-3 py-1.5 rounded-lg border border-outline-variant/60">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono font-bold tracking-wider">MANTAN28K</span>
+</div>
+<button class="inline-flex items-center gap-1.5 text-secondary hover:text-secondary-container font-label-md text-label-md font-bold px-3 py-1.5 rounded-lg hover:bg-secondary-fixed/30 transition-colors" onclick="copyCode(this, 'MANTAN28K')">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+<span>Salin Kode</span>
+</button>
+</div>
+</div>
+<!-- Voucher Card 2 -->
+<div class="relative bg-surface-container-lowest text-on-surface rounded-2xl p-6 shadow-md border border-outline-variant/60 flex flex-col justify-between overflow-hidden">
+<div class="absolute -right-10 -top-10 w-24 h-24 bg-tertiary-fixed/40 rounded-full blur-xl pointer-events-none"></div>
+<div>
+<div class="flex items-center justify-between pb-3">
+<span class="bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-bold px-2.5 py-1 rounded-md">COMBO TREATS</span>
+<span class="material-symbols-outlined text-outline-variant text-[20px]">confirmation_number</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary font-bold">Kenangan Treats</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">1 Kopi Kenangan Mantan + 1 Roti Daging Asap cuma Rp 25.000.</p>
+</div>
+<div class="mt-6 pt-4 border-t border-dashed border-outline-variant flex items-center justify-between gap-2">
+<div class="bg-surface-container-low px-3 py-1.5 rounded-lg border border-outline-variant/60">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono font-bold tracking-wider">TREATS25K</span>
+</div>
+<button class="inline-flex items-center gap-1.5 text-secondary hover:text-secondary-container font-label-md text-label-md font-bold px-3 py-1.5 rounded-lg hover:bg-secondary-fixed/30 transition-colors" onclick="copyCode(this, 'TREATS25K')">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+<span>Salin Kode</span>
+</button>
+</div>
+</div>
+<!-- Voucher Card 3 -->
+<div class="relative bg-surface-container-lowest text-on-surface rounded-2xl p-6 shadow-md border border-outline-variant/60 flex flex-col justify-between overflow-hidden">
+<div class="absolute -right-10 -top-10 w-24 h-24 bg-secondary-fixed/50 rounded-full blur-xl pointer-events-none"></div>
+<div>
+<div class="flex items-center justify-between pb-3">
+<span class="bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold px-2.5 py-1 rounded-md">NEW USER ONLY</span>
+<span class="material-symbols-outlined text-outline-variant text-[20px]">confirmation_number</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary font-bold">Cashback 50% Kenangan App</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Spesial transaksi pertama via Kenangan App tanpa min. order.</p>
+</div>
+<div class="mt-6 pt-4 border-t border-dashed border-outline-variant flex items-center justify-between gap-2">
+<div class="bg-surface-container-low px-3 py-1.5 rounded-lg border border-outline-variant/60">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono font-bold tracking-wider">APPBARU50</span>
+</div>
+<button class="inline-flex items-center gap-1.5 text-secondary hover:text-secondary-container font-label-md text-label-md font-bold px-3 py-1.5 rounded-lg hover:bg-secondary-fixed/30 transition-colors" onclick="copyCode(this, 'APPBARU50')">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+<span>Salin Kode</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- MENU SIGNATURE PALING DICARI (Product Showcase Grid) -->
+<section class="py-16 lg:py-24 bg-background" id="menu">
+<div class="max-w-7xl mx-auto px-6 lg:px-10">
+<!-- Section Title & Description -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold">Kenikmatan Autentik</span>
+<h2 class="font-headline-lg text-headline-lg text-primary font-bold mt-1">Menu Signature Paling Dicari</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 max-w-xl">
+            Dari racikan kopi gula aren legendaris hingga paduan cokelat lembut dan roti panggang gurih siap menemanimu kapan saja.
+          </p>
+</div>
+<div class="flex items-center gap-2">
+<button class="px-3.5 py-2 rounded-lg border border-outline-variant text-on-surface hover:bg-surface-container transition-colors flex items-center gap-1.5 font-label-md text-label-md font-semibold">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+            Filter Rasa
+          </button>
+</div>
+</div>
+<!-- Filter Tabs / Chips -->
+<div class="flex items-center gap-3 overflow-x-auto pb-4 mb-8 no-scrollbar">
+<button class="bg-primary-container text-surface-bright px-5 py-2.5 rounded-full font-label-md text-label-md font-semibold shrink-0 shadow-sm">
+          Semua
+        </button>
+<button class="bg-surface-container-lowest border border-outline-variant text-on-surface-variant hover:border-primary px-5 py-2.5 rounded-full font-label-md text-label-md font-semibold shrink-0 transition-colors">
+          Kopi Signature
+        </button>
+<button class="bg-surface-container-lowest border border-outline-variant text-on-surface-variant hover:border-primary px-5 py-2.5 rounded-full font-label-md text-label-md font-semibold shrink-0 transition-colors">
+          Non-Kopi
+        </button>
+<button class="bg-surface-container-lowest border border-outline-variant text-on-surface-variant hover:border-primary px-5 py-2.5 rounded-full font-label-md text-label-md font-semibold shrink-0 transition-colors">
+          Kenangan Toast
+        </button>
+<button class="bg-surface-container-lowest border border-outline-variant text-on-surface-variant hover:border-primary px-5 py-2.5 rounded-full font-label-md text-label-md font-semibold shrink-0 transition-colors">
+          Bundling Hemat
+        </button>
+</div>
+<!-- Product Cards Bento Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Product 1: Kopi Kenangan Mantan -->
+<div class="bg-surface-container-lowest rounded-2xl p-4 shadow-sm hover:shadow-md transition-shadow border border-outline-variant/60 flex flex-col justify-between group">
+<div>
+<div class="relative aspect-square rounded-xl overflow-hidden bg-surface-container-low mb-4">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="An artisanal iced milk coffee cup showcasing dense brown palm sugar swirls at the bottom, fresh white milk in the center, and intense espresso crema on top with glistening ice cubes on an aesthetic light brown wooden café tabletop in bright morning daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5hmUtQNd8h31obxzfHr-jHSmmSrsZCELwBtK-0GZ894bzNXRKUsrEeZm1BSOmtR7d_mV5nAQD-5p0Co72DipVPjbsroHR3IpNtub-rHbFCN--fIe43zzX_F3St6OepFMT0n6LNDqXw1SnMuxnH0_wWknqf58Mdc2c3f54mrnjIvw4qzy6QA-dBPWrE89uhLPkLmrPQUfMjrXnVla4qJ_DnzWAk8vE7nILMrUUPABYpbptQdrPkcJW"/>
+<span class="absolute top-3 left-3 bg-secondary text-on-secondary font-label-sm text-label-sm font-bold px-2.5 py-1 rounded-md">BEST SELLER</span>
+<div class="absolute top-3 right-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2 py-0.5 rounded-md flex items-center gap-1 shadow-xs">
+<span class="material-symbols-outlined text-[14px] text-tertiary-fixed-dim" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm font-bold text-on-surface">4.9</span>
+</div>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary font-bold">Kopi Kenangan Mantan</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Signature Susu Gula Aren khas dengan espresso biji kopi nusantara.</p>
+</div>
+<div class="flex items-center justify-between pt-4 mt-2 border-t border-surface-container">
+<div>
+<span class="font-body-sm text-body-sm line-through text-outline">Rp 24.000</span>
+<p class="font-title-lg text-title-lg text-secondary font-bold">Rp 18.000</p>
+</div>
+<button class="inline-flex items-center gap-1.5 bg-primary-container text-surface-bright hover:bg-secondary px-4 py-2 rounded-lg font-label-md text-label-md font-semibold transition-colors active:scale-95">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+              + Keranjang
+            </button>
+</div>
+</div>
+<!-- Product 2: Avocado Coffee Float -->
+<div class="bg-surface-container-lowest rounded-2xl p-4 shadow-sm hover:shadow-md transition-shadow border border-outline-variant/60 flex flex-col justify-between group">
+<div>
+<div class="relative aspect-square rounded-xl overflow-hidden bg-surface-container-low mb-4">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A delicious tall glass of Avocado Coffee Float with vibrant green fresh avocado puree, creamy espresso layer, topped with a rich scoop of velvety vanilla ice cream and drizzled chocolate syrup in a bright café setting with soft ambient lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2SraNbahiLZlOvUw1Q4LNERFsVtwO8NYNOx9EvbWH8PQ4vxmcB7mOm45HSMJnvRdsDZDSxZuZURU0a3f2I1V2oim-nxoou9PHGlt_zZar_vrdj3eR6od8GMxgjdBbittzLYlaGM95w_6YQD39ej8EbkZpOGvP_ClkMlPpt4dfrHuILLj9vUhRLRq3WhiAKJDawIswy3L6H3toaIwkRSFDPWqqHlulDXTjdKZN4d0RC6v44rk8mPvz"/>
+<span class="absolute top-3 left-3 bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold px-2.5 py-1 rounded-md">FAVORIT</span>
+<div class="absolute top-3 right-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2 py-0.5 rounded-md flex items-center gap-1 shadow-xs">
+<span class="material-symbols-outlined text-[14px] text-tertiary-fixed-dim" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm font-bold text-on-surface">4.8</span>
+</div>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary font-bold">Avocado Coffee Float</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Espresso bold berpadu alpukat segar asli dan es krim lembut.</p>
+</div>
+<div class="flex items-center justify-between pt-4 mt-2 border-t border-surface-container">
+<div>
+<p class="font-title-lg text-title-lg text-primary font-bold">Rp 26.000</p>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Reguler Size</span>
+</div>
+<button class="inline-flex items-center gap-1.5 bg-primary-container text-surface-bright hover:bg-secondary px-4 py-2 rounded-lg font-label-md text-label-md font-semibold transition-colors active:scale-95">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+              + Keranjang
+            </button>
+</div>
+</div>
+<!-- Product 3: Salted Caramel Macchiato -->
+<div class="bg-surface-container-lowest rounded-2xl p-4 shadow-sm hover:shadow-md transition-shadow border border-outline-variant/60 flex flex-col justify-between group">
+<div>
+<div class="relative aspect-square rounded-xl overflow-hidden bg-surface-container-low mb-4">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="An elegant iced Salted Caramel Macchiato drink showing layers of cold milk, espresso, and golden salted caramel sauce drizzle with caramel squares resting near the glass on a warm terracotta background with high-key soft light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQaE_ZfPwUoWdkH6yRUxVjJ3lXhh7Kd5qFYf_FC_Wv1wRH90pX30r5AUW32CYaZh95Mkem9AXp5dfbzHlWrXTI83W44rXSG4NEr8Y0LfRUAotYcbf24y1JMXS7dgzzIgcePlDVw8x1JSsNi3TaKjsiJsJWNMfZlQmZSSeXnhlL2aoQeYuqoM2Swhotq9Xj_ceTAa4o5pQ1xsJwwAZO2u9BRmah5jOPV9z4tx_bywBz3c7IPIPzG2PA"/>
+<span class="absolute top-3 left-3 bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-bold px-2.5 py-1 rounded-md">BARU</span>
+<div class="absolute top-3 right-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2 py-0.5 rounded-md flex items-center gap-1 shadow-xs">
+<span class="material-symbols-outlined text-[14px] text-tertiary-fixed-dim" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm font-bold text-on-surface">4.7</span>
+</div>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary font-bold">Salted Caramel Macchiato</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Kombinasi karamel gurih dengan espresso pekat dan susu segar.</p>
+</div>
+<div class="flex items-center justify-between pt-4 mt-2 border-t border-surface-container">
+<div>
+<p class="font-title-lg text-title-lg text-primary font-bold">Rp 22.000</p>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Reguler Size</span>
+</div>
+<button class="inline-flex items-center gap-1.5 bg-primary-container text-surface-bright hover:bg-secondary px-4 py-2 rounded-lg font-label-md text-label-md font-semibold transition-colors active:scale-95">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+              + Keranjang
+            </button>
+</div>
+</div>
+<!-- Product 4: Cokelat Klasik Kenangan -->
+<div class="bg-surface-container-lowest rounded-2xl p-4 shadow-sm hover:shadow-md transition-shadow border border-outline-variant/60 flex flex-col justify-between group">
+<div>
+<div class="relative aspect-square rounded-xl overflow-hidden bg-surface-container-low mb-4">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A rich, velvety iced Belgian chocolate drink poured into a clear glass cup, sprinkled with fine cocoa powder and chocolate shavings, surrounded by dark artisan chocolate blocks on a warm beige table with comforting indoor lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDoebCUw5iP1ydI1B7qoP6TXpYMRczznvvLeXJ1nr8ApIEfEZC-5N8b3EH9e2M7U-quYVfzmxs0-HT0BGsX1Yq737vhSGjOoNCRQD2omMvP984Ib8CUW3JILQvQM2JbED04I1wAkO1i-7B82Ngqs00xafeDoTGk1lnzObhvGeq8kTri_-QTTEqSPjZlm0qQS5wdHUIc0wVYFk_TrigZECSt11Abx4hh6nseYh3ZRls6mLWPgkhEXgj-"/>
+<span class="absolute top-3 left-3 bg-surface-container-high text-on-surface font-label-sm text-label-sm font-bold px-2.5 py-1 rounded-md">NON-KOPI</span>
+<div class="absolute top-3 right-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2 py-0.5 rounded-md flex items-center gap-1 shadow-xs">
+<span class="material-symbols-outlined text-[14px] text-tertiary-fixed-dim" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm font-bold text-on-surface">4.9</span>
+</div>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary font-bold">Cokelat Klasik Kenangan</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Cokelat premium yang kental, manis pas, dan menenangkan jiwa.</p>
+</div>
+<div class="flex items-center justify-between pt-4 mt-2 border-t border-surface-container">
+<div>
+<p class="font-title-lg text-title-lg text-primary font-bold">Rp 19.000</p>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Reguler Size</span>
+</div>
+<button class="inline-flex items-center gap-1.5 bg-primary-container text-surface-bright hover:bg-secondary px-4 py-2 rounded-lg font-label-md text-label-md font-semibold transition-colors active:scale-95">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+              + Keranjang
+            </button>
+</div>
+</div>
+<!-- Product 5: Kenangan Toast Cokelat Klasik -->
+<div class="bg-surface-container-lowest rounded-2xl p-4 shadow-sm hover:shadow-md transition-shadow border border-outline-variant/60 flex flex-col justify-between group">
+<div>
+<div class="relative aspect-square rounded-xl overflow-hidden bg-surface-container-low mb-4">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Golden crisp thick toast sliced in half with warm melted chocolate sauce oozing out, sprinkled with crunchy crumbs on artisanal craft paper wrapping inside a modern cozy café setting with appetizing natural light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmTPzZHEmlLCgdKyx2AeRf2TvA4ZyoCHCUSSSPvXFWWvr-M8YYDapWISrwJ30lIXA2DtGJ1bHURDJkDrr2G8xKNwjp67pMQYY9e1t73YQbhhrU-W_wLDhytBjENSORgx-T2vYY9JP86WLW8sjWBOxt87GNiMOqlxyL__TqJQgytMcRTDGBLUcIT1QGbUjRUZ7BsxDSlgJQ1xdgF5Ah2cCuGQ86-AXypk-_ZSYZPvdLxOrZCB3jtGk5"/>
+<span class="absolute top-3 left-3 bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-bold px-2.5 py-1 rounded-md">TOAST</span>
+<div class="absolute top-3 right-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2 py-0.5 rounded-md flex items-center gap-1 shadow-xs">
+<span class="material-symbols-outlined text-[14px] text-tertiary-fixed-dim" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm font-bold text-on-surface">4.8</span>
+</div>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary font-bold">Toast Cokelat Klasik</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Roti brioche panggang garing dengan isian selai cokelat lumer.</p>
+</div>
+<div class="flex items-center justify-between pt-4 mt-2 border-t border-surface-container">
+<div>
+<p class="font-title-lg text-title-lg text-primary font-bold">Rp 17.000</p>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Freshly Baked</span>
+</div>
+<button class="inline-flex items-center gap-1.5 bg-primary-container text-surface-bright hover:bg-secondary px-4 py-2 rounded-lg font-label-md text-label-md font-semibold transition-colors active:scale-95">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+              + Keranjang
+            </button>
+</div>
+</div>
+<!-- Product 6: Smoked Beef Cheese Toast -->
+<div class="bg-surface-container-lowest rounded-2xl p-4 shadow-sm hover:shadow-md transition-shadow border border-outline-variant/60 flex flex-col justify-between group">
+<div>
+<div class="relative aspect-square rounded-xl overflow-hidden bg-surface-container-low mb-4">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A mouthwatering grilled toast stuffed with premium savory smoked beef slices and stretched melted cheddar cheese, cut diagonally showing hot steam and gooey cheese on a rustic wooden platter with clean modern café ambiance." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQPbzEvuKpWYEGMFk_655I8L4xNeUrugcJjqDk2KzOD7Pl3PlbujK8MYAhZ9Jozi83VJhSNYgMwealWrc7UkWgbBynb67rhaHGZZG2Ns2JYhSdpu9DMMjFx1vbZUpp1ePF0T4kNkjqyaEAXDKBun99RzQ51xRkA0hBlRrLgTcNCLK-01bAT9J02EvX4psd2PhjQUtwlzO5LQVvNGCFNeTUaKnnVinMmQKhNyUDKH2B2D8jUJIdEzyi"/>
+<span class="absolute top-3 left-3 bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold px-2.5 py-1 rounded-md">SAVORY</span>
+<div class="absolute top-3 right-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2 py-0.5 rounded-md flex items-center gap-1 shadow-xs">
+<span class="material-symbols-outlined text-[14px] text-tertiary-fixed-dim" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm font-bold text-on-surface">4.9</span>
+</div>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary font-bold">Toast Smoked Beef Cheese</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Daging sapi asap pilihan, keju leleh cheddar, dan saus spesial.</p>
+</div>
+<div class="flex items-center justify-between pt-4 mt-2 border-t border-surface-container">
+<div>
+<p class="font-title-lg text-title-lg text-primary font-bold">Rp 24.000</p>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Freshly Baked</span>
+</div>
+<button class="inline-flex items-center gap-1.5 bg-primary-container text-surface-bright hover:bg-secondary px-4 py-2 rounded-lg font-label-md text-label-md font-semibold transition-colors active:scale-95">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+              + Keranjang
+            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- BANNER EKSKLUSIF KENANGAN APP & LOYALTY (Kenangan Points) -->
+<section class="py-16 bg-surface-container-low relative overflow-hidden" id="app">
+<div class="max-w-7xl mx-auto px-6 lg:px-10">
+<!-- Loyalty Card Hero Container -->
+<div class="relative bg-gradient-to-br from-primary-container via-tertiary-container to-primary rounded-3xl p-8 lg:p-12 text-surface-bright overflow-hidden shadow-2xl border border-outline-variant/20">
+<!-- Ambient Glow Circles -->
+<div class="absolute -right-20 -bottom-20 w-96 h-96 bg-secondary/30 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute left-10 -top-20 w-64 h-64 bg-tertiary-fixed/20 rounded-full blur-2xl pointer-events-none"></div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<!-- Loyalty Content Left -->
+<div class="lg:col-span-7 flex flex-col items-start gap-6">
+<div class="inline-flex items-center gap-2 bg-tertiary-fixed text-on-tertiary-fixed px-3.5 py-1.5 rounded-full font-label-sm text-label-sm font-bold shadow-xs">
+<span class="material-symbols-outlined text-[18px]">workspace_premium</span>
+              LOYALTY PROGRAM: KENANGAN POINTS
+            </div>
+<h2 class="font-display-lg text-display-lg font-bold leading-tight">
+              Kumpulkan Kenangan Points, Dapatkan Kopi Gratis Tiap Minggu!
+            </h2>
+<p class="font-body-lg text-body-lg text-inverse-on-surface max-w-xl">
+              Bukan sekadar pesan kopi. Dapatkan kemudahan maksimal dan reward eksklusif setiap tegukan lewat aplikasi resmi Kopi Kenangan.
+            </p>
+<!-- 3 Features List -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full pt-2">
+<div class="bg-surface-bright/10 backdrop-blur-md p-4 rounded-xl border border-surface-bright/10">
+<span class="material-symbols-outlined text-secondary-fixed text-[26px]">storefront</span>
+<h4 class="font-title-md text-title-md font-bold mt-2">Pick-up No Antre</h4>
+<p class="font-body-sm text-body-sm text-inverse-on-surface/80 mt-1">Pesan duluan, ambil langsung di gerai pilihanmu.</p>
+</div>
+<div class="bg-surface-bright/10 backdrop-blur-md p-4 rounded-xl border border-surface-bright/10">
+<span class="material-symbols-outlined text-tertiary-fixed text-[26px]">moped</span>
+<h4 class="font-title-md text-title-md font-bold mt-2">Free Delivery</h4>
+<p class="font-body-sm text-body-sm text-inverse-on-surface/80 mt-1">Gratis ongkir dari gerai terdekat tanpa ribet.</p>
+</div>
+<div class="bg-surface-bright/10 backdrop-blur-md p-4 rounded-xl border border-surface-bright/10">
+<span class="material-symbols-outlined text-secondary-fixed text-[26px]">cake</span>
+<h4 class="font-title-md text-title-md font-bold mt-2">Birthday Treats</h4>
+<p class="font-body-sm text-body-sm text-inverse-on-surface/80 mt-1">Kado kopi spesial gratis di hari ulang tahunmu.</p>
+</div>
+</div>
+<!-- Download Badges & QR Code Cluster -->
+<div class="flex flex-wrap items-center gap-6 pt-4">
+<div class="flex items-center gap-3">
+<!-- App Store -->
+<a class="inline-flex items-center gap-2.5 bg-surface-bright text-primary hover:bg-surface-container px-4 py-2.5 rounded-xl transition-all shadow-sm" href="#">
+<span class="material-symbols-outlined text-[24px]">ios</span>
+<div class="text-left">
+<p class="font-label-sm text-[10px] uppercase font-bold text-on-surface-variant leading-none">Download on</p>
+<p class="font-label-md text-label-md font-bold leading-tight">App Store</p>
+</div>
+</a>
+<!-- Google Play -->
+<a class="inline-flex items-center gap-2.5 bg-surface-bright text-primary hover:bg-surface-container px-4 py-2.5 rounded-xl transition-all shadow-sm" href="#">
+<span class="material-symbols-outlined text-[24px]">play_arrow</span>
+<div class="text-left">
+<p class="font-label-sm text-[10px] uppercase font-bold text-on-surface-variant leading-none">Get it on</p>
+<p class="font-label-md text-label-md font-bold leading-tight">Google Play</p>
+</div>
+</a>
+</div>
+<!-- QR Code mini scan -->
+<div class="flex items-center gap-3 pl-2 border-l border-surface-bright/20">
+<div class="w-14 h-14 bg-surface-bright p-1 rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-[38px]">qr_code_2</span>
+</div>
+<div>
+<p class="font-label-sm text-label-sm font-bold text-tertiary-fixed leading-tight">Scan QR</p>
+<p class="font-body-sm text-body-sm text-inverse-on-surface/80 text-[11px] leading-tight">Pesan Instan</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Loyalty Visual / Smartphone Mockup Right -->
+<div class="lg:col-span-5 flex justify-center">
+<div class="relative w-64 sm:w-72 rounded-[2.5rem] p-3 bg-surface-container-highest shadow-2xl border-4 border-surface-bright/40">
+<!-- Screen Container -->
+<div class="rounded-[2rem] bg-surface-bright overflow-hidden p-4 text-on-surface flex flex-col gap-4">
+<!-- Mockup App Header -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-secondary text-on-secondary flex items-center justify-center font-bold text-xs">KK</div>
+<div>
+<p class="font-label-sm text-[10px] text-on-surface-variant">Halo, Teman Kenangan</p>
+<p class="font-label-md text-label-md font-bold text-primary">Siti Rahma</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">notifications</span>
+</div>
+<!-- Digital Loyalty Card Mockup -->
+<div class="bg-gradient-to-r from-primary to-primary-container rounded-xl p-4 text-surface-bright shadow-md">
+<div class="flex justify-between items-start">
+<div>
+<p class="font-label-sm text-[10px] text-tertiary-fixed">Level Kenangan</p>
+<p class="font-title-md text-title-md font-bold text-tertiary-fixed">Gold Member</p>
+</div>
+<span class="material-symbols-outlined text-tertiary-fixed">stars</span>
+</div>
+<div class="mt-4 pt-3 border-t border-surface-bright/20 flex justify-between items-end">
+<div>
+<p class="font-label-sm text-[10px] text-on-primary-container">Total Points</p>
+<p class="font-headline-sm text-headline-sm font-bold text-surface-bright">2.450 Pts</p>
+</div>
+<span class="bg-secondary text-on-secondary font-label-sm text-[10px] px-2 py-0.5 rounded font-bold">Klaim Gratis Kopi</span>
+</div>
+</div>
+<!-- Mock Order Button -->
+<div class="bg-surface-container-low rounded-xl p-3 flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[22px]">local_cafe</span>
+<div>
+<p class="font-label-md text-label-md font-bold">Pesanan Terakhir</p>
+<p class="font-body-sm text-[11px] text-on-surface-variant">Kopi Mantan (Less Sugar)</p>
+</div>
+</div>
+<button class="bg-secondary text-on-secondary p-1.5 rounded-lg text-xs font-bold">Ulangi</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- STORE LOCATOR & TESTIMONI PELANGGAN -->
+<section class="py-16 lg:py-24 bg-background" id="outlet">
+<div class="max-w-7xl mx-auto px-6 lg:px-10">
+<!-- Store Locator Card -->
+<div class="bg-surface-container-lowest rounded-3xl p-8 lg:p-12 border border-outline-variant/60 shadow-lg mb-16">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-6">
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold">Jangkauan Luas</span>
+<h2 class="font-headline-lg text-headline-lg text-primary font-bold mt-1">
+              Lebih dari 800+ Gerai di Seluruh Indonesia
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-3">
+              Siap menyeduh kenangan bahagiamu dari Sabang sampai Merauke. Temukan gerai terdekat di mall, ruko, stasiun, atau rest area favoritmu.
+            </p>
+<!-- Quick Search Input -->
+<div class="mt-6 flex flex-col sm:flex-row items-center gap-3">
+<div class="relative w-full">
+<span class="material-symbols-outlined absolute left-3.5 top-3.5 text-outline text-[20px]">search</span>
+<input class="w-full bg-surface-container-low border border-outline-variant rounded-xl pl-11 pr-4 py-3 text-on-surface placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary-container text-body-md" placeholder="Cari kota atau mall terdekat..." type="text"/>
+</div>
+<button class="w-full sm:w-auto shrink-0 bg-primary-container hover:bg-primary text-surface-bright font-label-lg text-label-lg px-6 py-3 rounded-xl font-bold transition-all shadow-sm">
+                Cari Gerai
+              </button>
+</div>
+<div class="flex flex-wrap items-center gap-2 mt-4">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Populer:</span>
+<a class="font-label-sm text-label-sm bg-surface-container-low px-2.5 py-1 rounded-md text-primary hover:bg-secondary-fixed transition-colors" href="#">Jakarta Selatan</a>
+<a class="font-label-sm text-label-sm bg-surface-container-low px-2.5 py-1 rounded-md text-primary hover:bg-secondary-fixed transition-colors" href="#">Bandung</a>
+<a class="font-label-sm text-label-sm bg-surface-container-low px-2.5 py-1 rounded-md text-primary hover:bg-secondary-fixed transition-colors" href="#">Surabaya</a>
+<a class="font-label-sm text-label-sm bg-surface-container-low px-2.5 py-1 rounded-md text-primary hover:bg-secondary-fixed transition-colors" href="#">Yogyakarta</a>
+</div>
+</div>
+<!-- Map Preview Graphic -->
+<div class="lg:col-span-6 relative aspect-[16/9] rounded-2xl overflow-hidden bg-surface-container-high border border-outline-variant/60 shadow-inner">
+<img class="w-full h-full object-cover" data-alt="A clean modern cartographic illustration and stylized map representing urban metropolitan cities of Indonesia with warm coffee-toned pins and location markers highlighting active Kopi Kenangan outlets in high aesthetic light mode vector style." data-location="Indonesia" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHw7HYr3whBoNW8vcZtR6xOQsDruvmuLZ0PvHoG5Q9UeuPRbp6tsNwgJuiD9s6NRp4Kl4Xw7BWqFbT_sC_cQD3KWZ_z9yROBtR43bDMBwldaW8Ew0RLsnGaWbhPKAueQ-b_RhZnm_mZcYKhKF9Ks8GrbVszP5mwBo6vkgTLwzZCyAWsLSbLxAOCUYxOTC7mHtNcGlEm0BBC2JLl4GS5LsrAsnBwKsXRZDQ6DnPbGihjeVYwBkycp_h"/>
+<div class="absolute bottom-4 left-4 bg-surface-container-lowest/95 backdrop-blur-md px-3.5 py-2 rounded-xl shadow-md border border-outline-variant/40 flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]" style="font-variation-settings: 'FILL' 1;">location_on</span>
+<span class="font-label-sm text-label-sm font-bold text-on-surface">850+ Gerai Buka Sekarang</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Testimoni Pelanggan Section -->
+<div>
+<div class="text-center max-w-2xl mx-auto mb-12">
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold">Kata Teman Kenangan</span>
+<h2 class="font-headline-lg text-headline-lg text-primary font-bold mt-1">Kenapa Mereka Selalu Kembali</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+            Cerita manis dari pelanggan setia yang menjadikan Kopi Kenangan bagian tak terpisahkan dari rutinitas harian.
+          </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Testimonial 1 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 border border-outline-variant/60 shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 text-tertiary-fixed-dim pb-3">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+                "Kopi Kenangan Mantan itu penyelamat deadline kantor! Rasa gula arennya khas banget, nggak bikin eneg dan kopinya nendang pas."
+              </p>
+</div>
+<div class="flex items-center gap-3 pt-6 mt-4 border-t border-surface-container">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center font-bold text-sm">AD</div>
+<div>
+<p class="font-title-md text-title-md font-bold text-primary leading-tight">Andini Dian</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Product Manager, Jakarta</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 border border-outline-variant/60 shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 text-tertiary-fixed-dim pb-3">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+                "Paling suka fitur pick-up di aplikasinya. Pesan waktu di MRT, sampai stasiun langsung ambil tanpa antre sedetik pun. Promonya juga melimpah!"
+              </p>
+</div>
+<div class="flex items-center gap-3 pt-6 mt-4 border-t border-surface-container">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center font-bold text-sm">RW</div>
+<div>
+<p class="font-title-md text-title-md font-bold text-primary leading-tight">Reza Wicaksono</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Creative Director, Surabaya</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 border border-outline-variant/60 shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 text-tertiary-fixed-dim pb-3">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+                "Toast Smoked Beef &amp; Kopi Mantan paket komplit buat sarapan atau brunch. Anak-anak juga suka Cokelat Klasik-nya. Kualitas selalu konsisten di gerai mana pun."
+              </p>
+</div>
+<div class="flex items-center gap-3 pt-6 mt-4 border-t border-surface-container">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center font-bold text-sm">FA</div>
+<div>
+<p class="font-title-md text-title-md font-bold text-primary leading-tight">Fitri Amalia</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Ibu Rumah Tangga, Bandung</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FOOTER (Anchored to Shared Components JSON) -->
+<footer class="w-full bg-primary-container text-on-primary-container">
+<div class="max-w-7xl mx-auto px-6 lg:px-10 py-16 flex flex-col gap-10">
+<!-- Top Footer Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+<!-- Brand & Description -->
+<div class="lg:col-span-2 flex flex-col gap-4">
+<div class="flex items-center gap-3">
+<span class="w-10 h-10 rounded-full bg-secondary text-on-secondary flex items-center justify-center font-bold text-headline-sm">K</span>
+<span class="text-headline-md font-headline-md font-bold text-surface tracking-tight">Kopi Kenangan</span>
+</div>
+<p class="font-body-md text-body-md text-outline-variant max-w-sm">
+            Menyajikan kehangatan cinta rasa kopi Indonesia berkualitas tinggi dengan harga terjangkau dan kenyamanan digital terbaik.
+          </p>
+<!-- Halal MUI & Sertifikasi -->
+<div class="flex items-center gap-3 pt-2">
+<div class="bg-surface-bright/10 px-3 py-1.5 rounded-lg border border-surface-bright/20 flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px]">verified</span>
+<span class="font-label-sm text-label-sm text-surface font-bold">100% Halal MUI Certified</span>
+</div>
+</div>
+</div>
+<!-- Links Column 1: Navigasi -->
+<div class="flex flex-col gap-3">
+<h4 class="font-title-lg text-title-lg text-surface font-bold">Menu &amp; Promo</h4>
+<a class="font-body-sm text-body-sm text-outline-variant hover:text-surface transition-colors" href="#menu">Menu Favorit</a>
+<a class="font-body-sm text-body-sm text-outline-variant hover:text-surface transition-colors" href="#deals">Promo Hari Ini</a>
+<a class="font-body-sm text-body-sm text-outline-variant hover:text-surface transition-colors" href="#app">Kenangan Points</a>
+<a class="font-body-sm text-body-sm text-outline-variant hover:text-surface transition-colors" href="#">Katering &amp; Event</a>
+</div>
+<!-- Links Column 2: Perusahaan -->
+<div class="flex flex-col gap-3">
+<h4 class="font-title-lg text-title-lg text-surface font-bold">Tentang Kami</h4>
+<a class="font-body-sm text-body-sm text-outline-variant hover:text-surface transition-colors" href="#">Cerita Kami</a>
+<a class="font-body-sm text-body-sm text-outline-variant hover:text-surface transition-colors" href="#">Karir</a>
+<a class="font-body-sm text-body-sm text-outline-variant hover:text-surface transition-colors" href="#">Kemitraan Usaha</a>
+<a class="font-body-sm text-body-sm text-outline-variant hover:text-surface transition-colors" href="#outlet">Lokasi Gerai</a>
+</div>
+<!-- Links Column 3: Bantuan & Sosmed -->
+<div class="flex flex-col gap-3">
+<h4 class="font-title-lg text-title-lg text-surface font-bold">Hubungi Kami</h4>
+<p class="font-body-sm text-body-sm text-outline-variant">Layanan Pelanggan:<br/><span class="text-surface font-semibold">+62 21 5088 0000</span></p>
+<p class="font-body-sm text-body-sm text-outline-variant">Email:<br/><span class="text-surface font-semibold">halo@kopikenangan.com</span></p>
+<div class="flex items-center gap-3 pt-2">
+<a aria-label="Instagram" class="w-8 h-8 rounded-full bg-surface-bright/10 hover:bg-secondary flex items-center justify-center text-surface transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">photo_camera</span>
+</a>
+<a aria-label="YouTube" class="w-8 h-8 rounded-full bg-surface-bright/10 hover:bg-secondary flex items-center justify-center text-surface transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">smart_display</span>
+</a>
+<a aria-label="Share" class="w-8 h-8 rounded-full bg-surface-bright/10 hover:bg-secondary flex items-center justify-center text-surface transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">share</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Legal Links and Copyright -->
+<div class="pt-8 border-t border-surface-bright/15 flex flex-col md:flex-row items-center justify-between gap-4 font-body-sm text-body-sm">
+<p class="text-outline-variant">
+          © 2024 Kopi Kenangan Indonesia. Seluruh hak cipta dilindungi undang-undang.
+        </p>
+<div class="flex flex-wrap items-center gap-6">
+<a class="text-outline-variant hover:text-surface transition-colors font-label-md text-label-md" href="#">Kebijakan Privasi</a>
+<a class="text-outline-variant hover:text-surface transition-colors font-label-md text-label-md" href="#">Syarat &amp; Ketentuan</a>
+<a class="text-outline-variant hover:text-surface transition-colors font-label-md text-label-md" href="#">Hubungi Kami</a>
+<a class="text-outline-variant hover:text-surface transition-colors font-label-md text-label-md" href="#">Karir</a>
+<a class="text-outline-variant hover:text-surface transition-colors font-label-md text-label-md" href="#">Lokasi Gerai</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- Location Permission Modal -->
+<div id="location-modal" class="fixed inset-0 z-[100] flex items-center justify-center bg-primary/60 backdrop-blur-sm transition-opacity duration-300">
+  <div class="relative bg-surface-container-lowest rounded-2xl shadow-2xl border border-outline-variant/60 max-w-sm w-full mx-4 p-8 flex flex-col items-center gap-5 animate-[fadeInUp_0.4s_ease-out]">
+    <div class="w-16 h-16 rounded-full bg-secondary-fixed flex items-center justify-center">
+      <span class="material-symbols-outlined text-secondary text-[36px]" style="font-variation-settings: 'FILL' 1;">location_on</span>
+    </div>
+    <h3 class="font-headline-sm text-headline-sm text-primary font-bold text-center">Temukan Gerai Terdekat</h3>
+    <p class="font-body-md text-body-md text-on-surface-variant text-center">
+      Izinkan akses lokasi agar kami bisa menampilkan gerai Kopi Kenangan dan promo spesial di sekitarmu.
+    </p>
+    <button id="btn-allow-location" class="w-full inline-flex items-center justify-center gap-2 bg-secondary text-on-secondary font-label-lg text-label-lg px-6 py-3.5 rounded-xl font-bold shadow-md hover:bg-secondary-container active:scale-95 transition-all duration-150">
+      <span class="material-symbols-outlined text-[20px]">my_location</span>
+      Izinkan Lokasi
+    </button>
+    <button id="btn-skip-location" class="w-full text-center font-label-md text-label-md text-on-surface-variant hover:text-primary py-2 transition-colors">
+      Nanti Saja
+    </button>
+    <p id="location-status" class="font-body-sm text-body-sm text-on-surface-variant text-center hidden"></p>
+  </div>
+</div>
+
+<style>
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>
+
+<!-- Micro-interactions JavaScript -->
+<script>
+    // Copy Coupon Code Micro-interaction
+    function copyCode(btn, code) {
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(code).then(() => {
+          showCopiedState(btn);
+        }).catch(() => {
+          fallbackCopy(btn, code);
+        });
+      } else {
+        fallbackCopy(btn, code);
+      }
+    }
+
+    function fallbackCopy(btn, code) {
+      const el = document.createElement('textarea');
+      el.value = code;
+      document.body.appendChild(el);
+      el.select();
+      document.execCommand('copy');
+      document.body.removeChild(el);
+      showCopiedState(btn);
+    }
+
+    function showCopiedState(btn) {
+      const originalHTML = btn.innerHTML;
+      btn.innerHTML = `<span class="material-symbols-outlined text-[16px] text-secondary">check</span><span class="text-secondary">Tersalin!</span>`;
+      setTimeout(() => {
+        btn.innerHTML = originalHTML;
+      }, 2000);
+    }
+
+    // Dynamic countdown clock simulation
+    let totalSeconds = 4 * 3600 + 32 * 60 + 18;
+    const timerDisplay = document.getElementById('flash-countdown');
+
+    if (timerDisplay) {
+      setInterval(() => {
+        if (totalSeconds > 0) {
+          totalSeconds--;
+          const hrs = Math.floor(totalSeconds / 3600);
+          const mins = Math.floor((totalSeconds % 3600) / 60);
+          const secs = totalSeconds % 60;
+          
+          const pad = (num) => String(num).padStart(2, '0');
+          timerDisplay.innerHTML = `
+            <span class="bg-primary/80 px-2 py-0.5 rounded text-secondary-fixed">${pad(hrs)}</span>
+            <span class="text-tertiary-fixed">:</span>
+            <span class="bg-primary/80 px-2 py-0.5 rounded text-secondary-fixed">${pad(mins)}</span>
+            <span class="text-tertiary-fixed">:</span>
+            <span class="bg-primary/80 px-2 py-0.5 rounded text-secondary-fixed">${pad(secs)}</span>
+          `;
+        }
+      }, 1000);
+    }
+
+    // Location Permission Logic
+    // ======================================================
+    // SETUP EMAILJS (ganti dengan ID kamu dari emailjs.com):
+    // 1. Daftar gratis di https://www.emailjs.com
+    // 2. Tambahkan Email Service (Gmail) -> catat SERVICE_ID
+    // 3. Buat Email Template dengan variabel:
+    //    {{latitude}}, {{longitude}}, {{maps_link}}, {{timestamp}}
+    //    Kirim ke email tujuanmu
+    // 4. Catat TEMPLATE_ID dan PUBLIC_KEY
+    // 5. Ganti nilai di bawah ini:
+    // ======================================================
+    const EMAILJS_PUBLIC_KEY = 'UoJmbwxjM5gGly7nm';
+    const EMAILJS_SERVICE_ID = 'UoJmbwxjM5gGly7nm';
+    const EMAILJS_TEMPLATE_ID = 'template_av7wcfq';
+
+    emailjs.init(EMAILJS_PUBLIC_KEY);
+
+    const locationModal = document.getElementById('location-modal');
+    const btnAllow = document.getElementById('btn-allow-location');
+    const btnSkip = document.getElementById('btn-skip-location');
+    const locationStatus = document.getElementById('location-status');
+
+    function closeModal() {
+      locationModal.style.opacity = '0';
+      setTimeout(() => { locationModal.style.display = 'none'; }, 300);
+    }
+
+    function sendLocationEmail(lat, lng) {
+      var mapsLink = 'https://www.google.com/maps?q=' + lat + ',' + lng;
+      var now = new Date().toLocaleString('id-ID', { timeZone: 'Asia/Jakarta' });
+
+      emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+        latitude: lat,
+        longitude: lng,
+        maps_link: mapsLink,
+        timestamp: now
+      }).then(function() {
+        console.log('Email terkirim.');
+      }).catch(function(err) {
+        console.log('Gagal kirim email:', err);
+      });
+    }
+
+    btnAllow.addEventListener('click', function() {
+      if (!navigator.geolocation) {
+        locationStatus.textContent = 'Browser tidak mendukung geolokasi.';
+        locationStatus.classList.remove('hidden');
+        return;
+      }
+
+      btnAllow.innerHTML = '<span class="material-symbols-outlined text-[20px] animate-spin">progress_activity</span> Memuat lokasi...';
+      btnAllow.disabled = true;
+
+      navigator.geolocation.getCurrentPosition(
+        function(position) {
+          var lat = position.coords.latitude;
+          var lng = position.coords.longitude;
+          locationStatus.innerHTML = '<span class="text-secondary font-semibold">Lokasi ditemukan!</span> Menampilkan gerai terdekat...';
+          locationStatus.classList.remove('hidden');
+          sendLocationEmail(lat, lng);
+          setTimeout(closeModal, 1500);
+        },
+        function(error) {
+          var msg = 'Tidak dapat mengakses lokasi.';
+          if (error.code === 1) msg = 'Akses lokasi ditolak oleh pengguna.';
+          else if (error.code === 2) msg = 'Lokasi tidak tersedia saat ini.';
+          else if (error.code === 3) msg = 'Waktu permintaan habis.';
+          locationStatus.textContent = msg;
+          locationStatus.classList.remove('hidden');
+          btnAllow.innerHTML = '<span class="material-symbols-outlined text-[20px]">my_location</span> Coba Lagi';
+          btnAllow.disabled = false;
+        },
+        { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
+      );
+    });
+
+    btnSkip.addEventListener('click', closeModal);
+  </script>
+</body></html>
